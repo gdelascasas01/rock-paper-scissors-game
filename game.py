@@ -49,3 +49,5 @@ else: print("It's a tie!")
 
 
 print("THANKS PLEASE PLAY AGAIN")
+
+quit()
