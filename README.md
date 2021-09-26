@@ -10,7 +10,7 @@ An example Python application for students to run to test their local developmen
 
 ## Installation
 
-Fork this [remote repository](https://github.com/prof-rossetti/intro-to-python/tree/main/exercises/rock-paper-scissorsp) under your own control, then "clone" or download your remote copy onto your local computer.
+Fork this [remote repository](https://github.com/gdelascasas01/rock-paper-scissors-gamep) under your own control, then "clone" or download your remote copy onto your local computer.
 
 Then navigate there from the command line (subsequent commands assume you are running them from the local repository's root directory):
 
@@ -44,6 +44,8 @@ In the root directory of your local repository, create a new file called ".env",
 
 Run the Python game:
 
+```py
 python game.py
+```
 
 > NOTE: if you see an error like "ModuleNotFoundError: No module named '...'", it's because the given package isn't installed, so run the `pip` command above to ensure that package has been installed into the virtual environment.
