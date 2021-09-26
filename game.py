@@ -6,7 +6,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-PLAYER_NAME = os.getenv("PLAYER_NAME", default="Gabriel")
+PLAYER_NAME = os.getenv("PLAYER_NAME", default="Player One")
 print(f"Welcome '{PLAYER_NAME}' to my Rock-Paper-Scissors game...")
 
 # PROMPT USER FOR INPUT
